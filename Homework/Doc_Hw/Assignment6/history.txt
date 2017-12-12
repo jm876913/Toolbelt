@@ -1,0 +1,682 @@
+Script started on Tue 10 Oct 2017 03:42:19 PM EDT
+jwherry@pu1:~/3560/assignment6$ make
+doxygen -g index.html
+
+
+Configuration file `index.html' created.
+
+Now edit the configuration file and enter
+
+  doxygen index.html
+
+to generate the documentation for your project
+
+doxygen index.html
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /home/jwherry/3560/assignment6
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/jwherry/3560/assignment6/colors.h...
+Parsing file /home/jwherry/3560/assignment6/colors.h...
+Preprocessing /home/jwherry/3560/assignment6/game.cc...
+Parsing file /home/jwherry/3560/assignment6/game.cc...
+Preprocessing /home/jwherry/3560/assignment6/game.h...
+Parsing file /home/jwherry/3560/assignment6/game.h...
+Preprocessing /home/jwherry/3560/assignment6/history.txt...
+Parsing file /home/jwherry/3560/assignment6/history.txt...
+Preprocessing /home/jwherry/3560/assignment6/main.cc...
+Parsing file /home/jwherry/3560/assignment6/main.cc...
+Preprocessing /home/jwherry/3560/assignment6/othello.cc...
+Parsing file /home/jwherry/3560/assignment6/othello.cc...
+Preprocessing /home/jwherry/3560/assignment6/othello.h...
+Parsing file /home/jwherry/3560/assignment6/othello.h...
+Preprocessing /home/jwherry/3560/assignment6/piece.h...
+Parsing file /home/jwherry/3560/assignment6/piece.h...
+Reading /home/jwherry/3560/assignment6/README.md...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+/home/jwherry/3560/assignment6/piece.h:12: warning: Compound piece is not documented.
+/home/jwherry/3560/assignment6/othello.h:19: warning: Compound main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/game.h:12: warning: Compound main_savitch_14::game is not documented.
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file colors.h...
+Generating code for file game.h...
+Generating code for file othello.h...
+Generating code for file piece.h...
+Generating file documentation...
+Generating docs for file game.cc...
+Generating docs for file othello.h...
+Generating docs for file piece.h...
+/home/jwherry/3560/assignment6/piece.h:10: warning: Member color (enumeration) of file piece.h is not documented.
+Generating page documentation...
+Generating docs for page md_README...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound piece...
+/home/jwherry/3560/assignment6/piece.h:28: warning: Member is_blank() const  (function) of class piece is not documented.
+/home/jwherry/3560/assignment6/piece.h:29: warning: Member is_black() const  (function) of class piece is not documented.
+/home/jwherry/3560/assignment6/piece.h:30: warning: Member is_white() const  (function) of class piece is not documented.
+/home/jwherry/3560/assignment6/piece.h:36: warning: Member set_black() (function) of class piece is not documented.
+Generating namespace index...
+Generating docs for compound main_savitch_14::game...
+/home/jwherry/3560/assignment6/game.h:15: warning: Member who (enumeration) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:35: warning: Member last_mover() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:37: warning: Member moves_completed() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:38: warning: Member next_mover() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:40: warning: Member opposite(who player) const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:42: warning: Member countingPieces()=0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:43: warning: Member whosTurn()=0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:51: warning: Member make_move(const std::string &move) (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:53: warning: Member restart() (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:60: warning: Member clone() const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:62: warning: Member compute_moves(std::queue< std::string > &moves) const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:64: warning: Member display_status() const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:67: warning: Member evaluate() const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:69: warning: Member is_game_over() const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:71: warning: Member is_legal(const std::string &move) const =0 (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:73: warning: Member move_number (variable) of class main_savitch_14::game is not documented.
+Generating docs for compound main_savitch_14::Othello...
+/home/jwherry/3560/assignment6/othello.h:24: warning: Member display_status() const  (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:25: warning: Member evaluate() const  (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:30: warning: Member is_legal(const string &move) const  (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:31: warning: Member make_move(const string &move) (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:32: warning: Member restart() (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:33: warning: Member make_skips() (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:34: warning: Member countingPieces() (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:35: warning: Member whosTurn() (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:36: warning: Member clone() const  (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:37: warning: Member compute_moves(std::queue< std::string > &moves) const  (function) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:41: warning: Member black (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:42: warning: Member white (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:43: warning: Member skips (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:44: warning: Member openSpots (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:45: warning: Member b (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/othello.h:46: warning: Member w (variable) of class main_savitch_14::Othello is not documented.
+/home/jwherry/3560/assignment6/game.h:73: warning: Member move_number (variable) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:15: warning: Member who (enumeration) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:35: warning: Member last_mover() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:37: warning: Member moves_completed() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:38: warning: Member next_mover() const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:40: warning: Member opposite(who player) const  (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:51: warning: Member make_move(const std::string &move) (function) of class main_savitch_14::game is not documented.
+/home/jwherry/3560/assignment6/game.h:71: warning: Member is_legal(const std::string &move) const =0 (function) of class main_savitch_14::game is not documented.
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating graphical class hierarchy...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running dot...
+lookup cache used 116/65536 hits=487 misses=119
+finished...
+jwherry@pu1:~/3560/assignment6$ history
+    3  git commit -m "version 1 content"
+    4  ls
+    5  ls
+    6  cd dir1/
+    7  ls
+    8  touch file1
+    9  touch file2
+   10  cd ..
+   11  cd dir2/
+   12  touch file1
+   13  touch file2
+   14  cd ..
+   15  cd dir3/
+   16  touch file1
+   17  touch file2
+   18  git commit -m "version 1 content"
+   19  git add .
+   20  git commit -m "version 1 content"
+   21  git status
+   22  git add .
+   23  git status
+   24  git pull
+   25  git status
+   26  cd ..
+   27  cd dir1/
+   28  rm file1
+   29  ls
+   30  rm file2
+   31  cd ..
+   32  rm dir1/
+   33  ls
+   34  rmdir dir1
+   35  ls
+   36  cd dir2
+   37  rm file1 file2
+   38  ls
+   39  cd ..
+   40  rmdir dir2
+   41  ls
+   42  cd dir3
+   43  ls
+   44  rm file1 file2
+   45  cd ..
+   46  rm -rf dir3
+   47  ls
+   48  rm README.md
+   49  ls
+   50  cd 3560
+   51  ls
+   52  cd cs3560.f16/jw473415
+   53  ls
+   54  cd repoNew
+   55  ls
+   56  mkdir dir1 dir2 dir3
+   57  ls
+   58  touch README.md
+   59  ls
+   60  cd dir1
+   61  touch file1 file2
+   62  ls
+   63  cd ..
+   64  cd dir2
+   65  touch file1 file2
+   66  ls
+   67  cd ..
+   68  cd dir3
+   69  touch file1 file2
+   70  ls
+   71  git add .
+   72  git commit -m "version 1 content"
+   73  ls
+   74  cd ..
+   75  ls
+   76  git add .
+   77  git commit -m "version 1 content"
+   78  git commit -m "version 1 content"
+   79  git tag v1 -m "version 1"
+   80  ls
+   81  git branch new_branch
+   82  git branch
+   83  git checkout new_branch
+   84  ls
+   85  echo new_branch created >> README.md
+   86  git status
+   87  rm -rf dir3
+   88  ls
+   89  git status
+   90  git add -A
+   91  git commit -m "version 2 changes"
+   92  git tag v2 -m "version 2"
+   93  git checkout master
+   94  ls
+   95  echo master branch v1.1 >> README.md 
+   96  git status
+   97  git add -A
+   98  git commit -m "version 1.1 changes"
+   99  git tag v1.1 -m "version 1.1"
+  100  echo master branch v2.1 >> README.md 
+  101  git status
+  102  git add -A
+  103  git commit -m "version 2.1 changes"
+  104  git tag v2.1 -m "version 2.1"
+  105  git tag
+  106  git status
+  107  git log
+  108  ls
+  109  more README.md
+  110  ls
+  111  cd
+  112  cd 3560/cs3560.f16/jw473415
+  113  ls
+  114  clear
+  115  mkdir repoNew
+  116  ls
+  117  cd repoNew
+  118  git init
+  119  ls
+  120  touch README.md
+  121  mkdir dir1 dir2 dir3
+  122  cd dir1
+  123  touch file1 file2
+  124  cd ..
+  125  cd dir2
+  126  touch file1 file2
+  127  cd ..
+  128  cd dir3
+  129  touch file1 file2
+  130  ls
+  131  cd ..
+  132  ls
+  133  git add .
+  134  git commit -m "version 1 content"
+  135  git tag v1 -m "version 1"
+  136  git branch new_branch
+  137  git branch
+  138  git checkout new_branch
+  139  echo new_branch created >> README.md 
+  140  git status
+  141  rm -rf dir3
+  142  ls
+  143  git status
+  144  git add -A
+  145  git commit -m "version 2 changes"
+  146  git tag v2 -m "version 2"
+  147  git checkout master
+  148  ls
+  149  echo master branch v1.1 >> README.md 
+  150  git status
+  151  git add -A
+  152  git commit -m "version 1.1 changes"
+  153  git tag v1.1 -m "version 1.1"
+  154  echo master branch v2.1 >> README.md 
+  155  git status
+  156  git add -A
+  157  git commit -m "version 2.1 changes"
+  158  git tag v2.1 -m "version 2.1"
+  159  git tag
+  160  clear
+  161  ls
+  162  cd 3560
+  163  ls
+  164  git clone https://github.com/jwherry21/activity.git2.git
+  165  ls
+  166  cd activity.git2
+  167  ls
+  168  mkdir dir1
+  169  ls
+  170  git pull
+  171  ls
+  172  git add .
+  173  git status
+  174  git merge
+  175  git status
+  176  git log
+  177  ls
+  178  cd ..
+  179  git status
+  180  git add .
+  181  git status
+  182  git pull
+  183  git commit -m "Make subfolder"
+  184  git push
+  185  cd activity.git2
+  186  git push
+  187  ls
+  188  cd dir1
+  189  ls
+  190  cd ..
+  191  rmdir dir1
+  192  ls
+  193  git status
+  194  ls
+  195  clear
+  196  mkdir dir1
+  197  ls
+  198  ls
+  199  cd dir1
+  200  ls
+  201  ls
+  202  ls
+  203  ls
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd dir1
+  208  ls
+  209  clear
+  210  ls
+  211  cd ..
+  212  cd ..
+  213  ls
+  214  cd activity.git2
+  215  ls
+  216  git add .
+  217  git status
+  218  git commit -m "Added file to subfolder"
+  219  git push
+  220  git pull
+  221  git merge
+  222  git status
+  223  git push
+  224  clear
+  225  cd ..
+  226  ls
+  227  git clone https://github.com/jm876913/activity_git2.git
+  228  ls
+  229  cd activity_git2
+  230  ls
+  231  more README.md
+  232  cd ..
+  233  ls
+  234  cd activity_git2
+  235  ls
+  236  cd subfolder
+  237  ls
+  238  cd ..
+  239  rmdir subfolder
+  240  rm -rf subfolder
+  241  ls
+  242  git status
+  243  git add .
+  244  git commit -m "Removed subfolder and image file"
+  245  git push
+  246  git log --stat
+  247  cd ..
+  248  ls
+  249  cd activity.git2
+  250  ls
+  251  git pull
+  252  l
+  253  ls
+  254  cd 3560
+  255  ls
+  256  cd JasonandAlexa
+  257  ls
+  258  git pull
+  259  git status
+  260  git log
+  261  git branch
+  262  git checkout
+  263  ls
+  264  git branch
+  265  cd -
+  266  ls
+  267  cd ..
+  268  ls
+  269  cd 3560
+  270  ls
+  271  cd cs3560.f16
+  272  ls
+  273  cd jw473415
+  274  ls
+  275  git branch
+  276  git branches
+  277  open http://www.Google.com
+  278  git show-branch
+  279  git branch
+  280  ls
+  281  git status
+  282  git log
+  283  git log --stat
+  284  git log
+  285  cd ..
+  286  cd ..
+  287  ls
+  288  cd JasonandAlexa
+  289  ls
+  290  git log
+  291  git log --stat
+  292  q
+  293  git show
+  294  git log
+  295  git show commit d843fe2065cfab5720097bcb7526781cc9717e0c
+  296  git show  d843fe2065cfab5720097bcb7526781cc9717e0c
+  297  clear
+  298  git show bfbdede13191c8ca406eb7f0bcf5e6c167d863bd
+  299  git blame
+  300  ls
+  301  git blame --incremental
+  302  git blame -t
+  303  git tag
+  304  cd ..
+  305  ls
+  306  git cs3560.f16
+  307  cd cs3560.f16
+  308  ls
+  309  cd jw473415
+  310  ls
+  311  cd Assignment3.md
+  312  ls
+  313  ls
+  314  cd repoNew
+  315  ls
+  316  git tag
+  317  git show v1
+  318  git show-branch
+  319  git config --global -l
+  320  git config
+  321  git config --global
+  322  git config --global -l
+  323  git log --stat --since=2.week
+  324  git log --stat --since=2.month
+  325  git log --stat --since=24.month
+  326  git show-branch
+  327  git branch
+  328  ls
+  329  git checkout master #new_branch
+  330  ls
+  331  git branch
+  332  git checkout new_branch
+  333  ls
+  334  git checkout master
+  335  ls
+  336  git branch
+  337  cd
+  338  ls
+  339  APcompsci21ls
+  340  ls
+  341  cd 3560
+  342  ls
+  343  git init quiz1
+  344  ls
+  345  cd quiz1
+  346  git checkout -b jw473415
+  347  git branch
+  348  cd ..
+  349  ls
+  350  cd JasonandAlexa
+  351  git branch
+  352  cd ..
+  353  cd quiz1
+  354  ls
+  355  git status
+  356  git branch
+  357  git add .
+  358  git status
+  359  cd ..
+  360  rmdir quiz1
+  361  rmdir -rf quiz1
+  362  rmdir -r quiz1
+  363  ls
+  364  cd cs3560.f16
+  365  ls
+  366  cd jw473415
+  367  ls
+  368  git branch
+  369  git checkout -b jw473415
+  370  git branch
+  371  mkdir OAKID_name
+  372  ls
+  373  clear
+  374  git status
+  375  git add .
+  376  git pull
+  377  git commit -m "checking in the screenshot"
+  378  git tag JasonWherryV1.0
+  379  git tag
+  380  git push
+  381  git push --set -upstream origin jw473415
+  382  git branch
+  383  git status
+  384  ls
+  385  git push
+  386  git merge
+  387  ls
+  388  cd 3560
+  389  ls
+  390  rm -rf quiz1
+  391  ls
+  392  cd cs3560.f16
+  393  ls
+  394  cd jw473415
+  395  ls
+  396  rm -rf OAKID_name
+  397  ls
+  398  cd 
+  399  cd 3560
+  400  ls
+  401  git clone https://github.com/jwherry21/quiz1.git
+  402  ls
+  403  cd quiz1
+  404  ls
+  405  git branch
+  406  git branch jw473415
+  407  git branch
+  408  git branch -m jw473415_JasonWherry
+  409  git branch
+  410  git branch -m master
+  411  git branch
+  412  git checkout jw473415
+  413  git branch -m jw473415_JasonWherry
+  414  git branch
+  415  mkdir jw473415_JasonWherry
+  416  ls
+  417  cd jw473415_JasonWherry/
+  418  ls
+  419  cd ..
+  420  ls
+  421  git status
+  422  git add .
+  423  git status
+  424  git commmit -m "Added screenshot to folder"
+  425  git status
+  426  git commit -m "Added screenshot to folder"
+  427  git status
+  428  git push
+  429  git pull
+  430  ls
+  431  git branch
+  432  ls
+  433  cd jw473415_JasonWherry/
+  434  ls
+  435  git status
+  436  git push
+  437  git push --set-upstream origin jw473415_JasonWherry
+  438  git branch
+  439  git status
+  440  git tag JasonWherry_V1.0 -m "version1"
+  441  git tag
+  442  git status
+  443  git add .
+  444  git status
+  445  git push
+  446  git pull
+  447  git status
+  448  git branch
+  449  git tag
+  450  git diff
+  451  cd ..
+  452  ls
+  453  cd jw473415_JasonWherry/
+  454  ls
+  455  git tag
+  456  git tag
+  457  git show JasonWherry_V1.0 
+  458  git show 3a662c0e9ac8b3ad1a19f11b5b59d95f43dc5f80
+  459  clear
+  460  git show JasonWherry_V1.0 
+  461  git push origin JasonWherry_V1.0 
+  462  clear
+  463  git branch
+  464  clear
+  465  git branch
+  466  git checkout master
+  467  git branch
+  468  cd ..
+  469  ls
+  470  git branch
+  471  git checkout jw473415_JasonWherry 
+  472  ls
+  473  git checkout master
+  474  cd ..
+  475  ls
+  476  cd quiz1
+  477  ls
+  478  git branch
+  479  ls
+  480  mkdir quiz1_git
+  481  ls
+  482  ls
+  483  cd quiz1_git/
+  484  ls
+  485  git status
+  486  cd ..
+  487  git status
+  488  git add .
+  489  git commit -m "Added submission screenshot"
+  490  git push
+  491  ls
+  492  cd 3560
+  493  ls
+  494  git clone https://github.com/alexahong/assignment6.git
+  495  ls
+  496  cd assignment6/
+  497  ls
+  498  open gam.h
+  499  open game.h
+  500  more game.h
+  501  make
+  502  history
+jwherry@pu1:~/3560/assignment6$ exit
+
+Script done on Tue 10 Oct 2017 03:42:32 PM EDT
