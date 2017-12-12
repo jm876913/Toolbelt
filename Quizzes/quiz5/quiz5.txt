@@ -1,0 +1,6 @@
+no errors in the task A program 
+
+the checkers program had problems with the initialization of the new dynamic array. fixed by making it int new_dynamic_array[dynamic_array].
+the other problem was in the second for loop and was fixed by setting j = 0 int the loop and what the loop does like this new_dynamic_array[fixed_array1_size+j]=fixed_array2[j];
+lastly the bool is sorted needs to be initialized to true.
+
